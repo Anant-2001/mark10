@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+body{
+    font-family: 'Lexend', sans-serif;
+    margin: 0px;
+    font-size: 120%;
+    background-color: black;
+    color: whitesmoke;
+}
+:root{
+  --primary-color: rgb(191, 52, 226);
+}
+.heading{
+  text-align: center;
+  color: var(--primary-color);
+}
+.container{
+  max-width: 550px;
+  margin: 30px auto;
+  padding : 10px;
+  border-radius: 10px;
+  /* border: white solid 2px; */
+}
+#bill-amount{
+  padding: 6px 4px;
+  border-radius: 4px;
+  outline: white;
+  border: 2px solid var(--primary-color);
+  width: 50%;
+  font-size: 100%;
+}
+#cash-given{
+  padding: 6px 4px;
+  border-radius: 4px;
+  outline: white;
+  border: 2px solid var(--primary-color);
+  width: 50%;
+  font-size: 100%;
+}
+
+#check-button{
+  display: block;
+  margin: 15px 0px;
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+  font-size: 100%;
+  cursor: pointer;
+  color: white;
+  background-color: var(--primary-color);
+
+}
+table{
+  border-collapse: collapse;
+  text-align: justify;
+}
+td{
+  border: var(--primary-color) 2px solid;
+  padding: 0.5rem 1rem;
+}
+th{
+  border: var(--primary-color) 2px solid;
+  padding: 0.5rem 1rem;
+}
